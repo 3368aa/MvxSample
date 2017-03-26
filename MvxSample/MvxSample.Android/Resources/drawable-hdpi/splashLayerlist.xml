@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+  <item>
+    <layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+  <!-- 设置整个屏幕背景为白色 -->
+  <item >
+    <color android:color="@android:color/white"/>
+  </item>
+  <item>
+    <!--显示一个图片在底部-->
+    <bitmap
+        android:layout_width="match_parent"
+        android:gravity="bottom|center_horizontal|fill_horizontal"
+        android:src="@drawable/phoenixtitle" />
+  </item>
+
+</layer-list>
+  </item>
+</selector>
+ 
+
