@@ -47,6 +47,27 @@ namespace MvxSample.Droid
 			global::MvvmCross.Binding.Droid.Resource.Styleable.MvxListView = global::MvxSample.Droid.Resource.Styleable.MvxListView;
 			global::MvvmCross.Binding.Droid.Resource.Styleable.MvxListView_MvxDropDownItemTemplate = global::MvxSample.Droid.Resource.Styleable.MvxListView_MvxDropDownItemTemplate;
 			global::MvvmCross.Binding.Droid.Resource.Styleable.MvxListView_MvxItemTemplate = global::MvxSample.Droid.Resource.Styleable.MvxListView_MvxItemTemplate;
+			global::MvvmCross.Droid.FullFragging.Resource.Attribute.MvxBind = global::MvxSample.Droid.Resource.Attribute.MvxBind;
+			global::MvvmCross.Droid.FullFragging.Resource.Attribute.MvxDropDownItemTemplate = global::MvxSample.Droid.Resource.Attribute.MvxDropDownItemTemplate;
+			global::MvvmCross.Droid.FullFragging.Resource.Attribute.MvxGroupItemTemplate = global::MvxSample.Droid.Resource.Attribute.MvxGroupItemTemplate;
+			global::MvvmCross.Droid.FullFragging.Resource.Attribute.MvxItemTemplate = global::MvxSample.Droid.Resource.Attribute.MvxItemTemplate;
+			global::MvvmCross.Droid.FullFragging.Resource.Attribute.MvxLang = global::MvxSample.Droid.Resource.Attribute.MvxLang;
+			global::MvvmCross.Droid.FullFragging.Resource.Attribute.MvxSource = global::MvxSample.Droid.Resource.Attribute.MvxSource;
+			global::MvvmCross.Droid.FullFragging.Resource.Attribute.MvxTemplate = global::MvxSample.Droid.Resource.Attribute.MvxTemplate;
+			global::MvvmCross.Droid.FullFragging.Resource.Id.MvvmCrossTagId = global::MvxSample.Droid.Resource.Id.MvvmCrossTagId;
+			global::MvvmCross.Droid.FullFragging.Resource.Id.MvxBindingTagUnique = global::MvxSample.Droid.Resource.Id.MvxBindingTagUnique;
+			global::MvvmCross.Droid.FullFragging.Resource.Styleable.MvxBinding = global::MvxSample.Droid.Resource.Styleable.MvxBinding;
+			global::MvvmCross.Droid.FullFragging.Resource.Styleable.MvxBinding_MvxBind = global::MvxSample.Droid.Resource.Styleable.MvxBinding_MvxBind;
+			global::MvvmCross.Droid.FullFragging.Resource.Styleable.MvxBinding_MvxLang = global::MvxSample.Droid.Resource.Styleable.MvxBinding_MvxLang;
+			global::MvvmCross.Droid.FullFragging.Resource.Styleable.MvxControl = global::MvxSample.Droid.Resource.Styleable.MvxControl;
+			global::MvvmCross.Droid.FullFragging.Resource.Styleable.MvxControl_MvxTemplate = global::MvxSample.Droid.Resource.Styleable.MvxControl_MvxTemplate;
+			global::MvvmCross.Droid.FullFragging.Resource.Styleable.MvxExpandableListView = global::MvxSample.Droid.Resource.Styleable.MvxExpandableListView;
+			global::MvvmCross.Droid.FullFragging.Resource.Styleable.MvxExpandableListView_MvxGroupItemTemplate = global::MvxSample.Droid.Resource.Styleable.MvxExpandableListView_MvxGroupItemTemplate;
+			global::MvvmCross.Droid.FullFragging.Resource.Styleable.MvxImageView = global::MvxSample.Droid.Resource.Styleable.MvxImageView;
+			global::MvvmCross.Droid.FullFragging.Resource.Styleable.MvxImageView_MvxSource = global::MvxSample.Droid.Resource.Styleable.MvxImageView_MvxSource;
+			global::MvvmCross.Droid.FullFragging.Resource.Styleable.MvxListView = global::MvxSample.Droid.Resource.Styleable.MvxListView;
+			global::MvvmCross.Droid.FullFragging.Resource.Styleable.MvxListView_MvxDropDownItemTemplate = global::MvxSample.Droid.Resource.Styleable.MvxListView_MvxDropDownItemTemplate;
+			global::MvvmCross.Droid.FullFragging.Resource.Styleable.MvxListView_MvxItemTemplate = global::MvxSample.Droid.Resource.Styleable.MvxListView_MvxItemTemplate;
 		}
 		
 		public partial class Attribute
@@ -87,13 +108,34 @@ namespace MvxSample.Droid
 		{
 			
 			// aapt resource value: 0x7f020000
-			public const int Icon = 2130837504;
+			public const int btn = 2130837504;
 			
 			// aapt resource value: 0x7f020001
-			public const int phoenixtitle = 2130837505;
+			public const int btna = 2130837505;
 			
 			// aapt resource value: 0x7f020002
-			public const int splashLayerlist = 2130837506;
+			public const int chat = 2130837506;
+			
+			// aapt resource value: 0x7f020003
+			public const int extras = 2130837507;
+			
+			// aapt resource value: 0x7f020004
+			public const int friends = 2130837508;
+			
+			// aapt resource value: 0x7f020005
+			public const int Icon = 2130837509;
+			
+			// aapt resource value: 0x7f020006
+			public const int my = 2130837510;
+			
+			// aapt resource value: 0x7f020007
+			public const int phoenixtitle = 2130837511;
+			
+			// aapt resource value: 0x7f020008
+			public const int radiobtn = 2130837512;
+			
+			// aapt resource value: 0x7f020009
+			public const int splashLayerlist = 2130837513;
 			
 			static Drawable()
 			{
@@ -115,7 +157,28 @@ namespace MvxSample.Droid
 			public const int MvxBindingTagUnique = 2130968577;
 			
 			// aapt resource value: 0x7f040002
-			public const int textView1 = 2130968578;
+			public const int chat_top_title = 2130968578;
+			
+			// aapt resource value: 0x7f040003
+			public const int main_container = 2130968579;
+			
+			// aapt resource value: 0x7f040005
+			public const int main_rb_chat = 2130968581;
+			
+			// aapt resource value: 0x7f040007
+			public const int main_rb_extras = 2130968583;
+			
+			// aapt resource value: 0x7f040006
+			public const int main_rb_friends = 2130968582;
+			
+			// aapt resource value: 0x7f040008
+			public const int main_rb_my = 2130968584;
+			
+			// aapt resource value: 0x7f040004
+			public const int main_rg_toolbar = 2130968580;
+			
+			// aapt resource value: 0x7f040009
+			public const int textView1 = 2130968585;
 			
 			static Id()
 			{
@@ -131,10 +194,22 @@ namespace MvxSample.Droid
 		{
 			
 			// aapt resource value: 0x7f030000
-			public const int MainPage = 2130903040;
+			public const int ChatFragment = 2130903040;
 			
 			// aapt resource value: 0x7f030001
-			public const int SplashScreenPage = 2130903041;
+			public const int ExtrasFragment = 2130903041;
+			
+			// aapt resource value: 0x7f030002
+			public const int FriendsFragment = 2130903042;
+			
+			// aapt resource value: 0x7f030003
+			public const int MainPage = 2130903043;
+			
+			// aapt resource value: 0x7f030004
+			public const int MyFragment = 2130903044;
+			
+			// aapt resource value: 0x7f030005
+			public const int SplashScreenPage = 2130903045;
 			
 			static Layout()
 			{

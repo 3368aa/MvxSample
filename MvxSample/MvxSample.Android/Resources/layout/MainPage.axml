@@ -1,15 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:minWidth="25px"
-    android:minHeight="25px">
-    <TextView
-        android:text="我是主窗口"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:layout_width="wrap_content"
+    android:orientation="vertical">
+    <LinearLayout
+        android:id="@+id/main_container"
+        android:layout_width="match_parent"
+        android:layout_weight="10"
+        android:layout_height="match_parent" />
+    <RadioGroup
+        android:minHeight="50dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/textView1"
-        android:layout_centerInParent="true"
-        android:textColor="@android:color/holo_orange_light" />
-</RelativeLayout>
+        android:orientation="horizontal"
+        android:layoutMode="clipBounds"
+        android:id="@+id/main_rg_toolbar"
+        android:layout_weight="1">
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="微信"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:button="@null"
+            android:background="@drawable/radiobtn"
+            android:id="@+id/main_rb_chat" />
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="联系人"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:button="@null"
+            android:background="@drawable/radiobtn"
+            android:id="@+id/main_rb_friends" />
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="发现"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:button="@null"
+            android:background="@drawable/radiobtn"
+            android:id="@+id/main_rb_extras" />
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="我"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:button="@null"
+            android:background="@drawable/radiobtn"
+            android:id="@+id/main_rb_my" />
+    </RadioGroup>
+</LinearLayout>
