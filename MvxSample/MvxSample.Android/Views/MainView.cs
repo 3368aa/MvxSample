@@ -27,7 +27,7 @@ namespace MvxSample.Droid.Views
                 else if (e.CheckedId == Resource.Id.main_rb_friends)
                 {
                     ViewModel.ShowFriends();
-                }
+                } 
                 else if (e.CheckedId == Resource.Id.main_rb_extras)
                 {
                     ViewModel.ShowExtras();
